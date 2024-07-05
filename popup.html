@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Playlist Duration Calculator</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+
+    h1 {
+      color: #444;
+    }
+
+    #playlist-url {
+      width: 150px;
+      padding: 10px;
+      font-size: 16px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    #calculate-button {
+      background-color: #ff0000;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #calculate-button:hover {
+      background-color: #cc0000;
+    }
+
+    #playlist-info {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Playlist Info</h1>
+  <input type="text" id="playlist-url" placeholder="Enter the URL">
+  <button id="calculate-button">Calculate</button>
+  <div id="playlist-info"></div>
+</body>
+</html>
